@@ -116,7 +116,7 @@ a{
     position:relative; left:150px;
     
     }
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 500px)
 {
     body{
     background-color: lightblue;
