@@ -116,9 +116,9 @@ a{
     position:relative; left:150px;
     
     }
-@media only screen and (max-width: 500px)
-{
-    body{
-    background-color: lightblue;
-    }
-}
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
