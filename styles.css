@@ -98,7 +98,7 @@ a{
  @media only screen and (max-width:700px){
     body {
         font-family: "Barlow Condensed", sans-serif;
-        color: #242424;
+        color: #160202;
         width: 100%;
         background-color: rgba(245, 233, 233, 0.751);
         text-align: center;
@@ -106,19 +106,21 @@ a{
     }
     .navbar {
         background-color: #352c2a;
-        max-height: 100%;
+        
     }
     .navbar-brand {
         display:-moz-box;
         padding: 0.5rem;
-        flex-flow: column;
+        flex-flow: row;
     }
     .img-fluid  {
-        max-width: 12rem;
-        max-height: 12rem;
-        border: 0.3rem solid #1873cde0;
+        max-width: 6rem;
+        max-height: 6rem;
+        border: 0.2rem solid #1873cde0;
         border-radius: 100%;
-      
+        position: relative;
+        margin-top: 170px;
+        margin-right: 690px;
     }
     .mobile-img{
         max-width: 12rem;
@@ -127,12 +129,10 @@ a{
         border-radius: 100%;
     }
     #sideNav {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
+        
         width: 50rem;
-        height: 25vh;
-        place-content: center;
+        height: 21.5vh;
+       
     }
     .resume-section {
         padding-top: 3rem !important;    
@@ -194,4 +194,17 @@ a{
     .rr{ 
         position:relative; left:130px; 
         }
+    .text-center{
+        flex:1;
+        text-align: right;
+        color: #242424;
+        padding-top: 5px;
+    }
+    .text-center ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin-right: 20px;
+    }
+    
  }
