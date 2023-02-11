@@ -114,8 +114,8 @@ a{
         flex-flow: row;
     }
     .img-fluid  {
-        max-width: 7rem;
-        max-height: 7rem;
+        max-width: 8rem;
+        max-height: 8rem;
         border: 0.2rem solid #1873cde0;
         border-radius: 100%;
         position: relative;
