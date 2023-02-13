@@ -102,9 +102,10 @@ a{
         
     }
     .navbar-brand {
-        display:inline-block;
+        display:-moz-box;
         padding: 0.5rem;
         flex-flow: row;
+        
     }
     .img-fluid  {
         max-width: 7rem;
@@ -190,9 +191,9 @@ a{
     .text-center{
         flex:1;
         text-align: right;
-        color: #242424;
-        display: inline-block;
+        display:-moz-box;
         padding-top: 5px;
+        padding-bottom: 16%;
     }
     .text-center ul li{
         list-style: none;
