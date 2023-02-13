@@ -95,21 +95,14 @@ a{
     position:relative; left:130px; 
     
     }
- @media only screen and (max-width:700px){
-    body {
-        font-family: "Barlow Condensed", sans-serif;
-        color: #160202;
-        width: 100%;
-        background-color: rgba(245, 233, 233, 0.751);
-        text-align: center;
-        font-size: 1.4rem;
-    }
+@media only screen and (max-width:700px){
     .navbar {
-        background-color: #352c2a;
+        background-color: #087833;
+        max-height: 100%;
         
     }
     .navbar-brand {
-        display:-moz-box;
+        display:inline-block;
         padding: 0.5rem;
         flex-flow: row;
     }
@@ -198,7 +191,8 @@ a{
         flex:1;
         text-align: right;
         color: #242424;
-        padding-top: 30px;
+        display: inline-block;
+        padding-top: 0px;
     }
     .text-center ul li{
         list-style: none;
