@@ -69,6 +69,7 @@ h6,
 .form-group {
     width: 50%;
     padding: 0;
+   
 }
 .btn {
     font-weight: 700;
@@ -96,69 +97,32 @@ a{
     
     }
 @media only screen and (max-width:700px){
-    .navbar {
-        background-color: #087833;
-        max-height: 100%;
-        
+   
+    body {
+        font-family: "Barlow Condensed", sans-serif;
+        color: #242424;
+        width: 100%;
+        background-color: rgba(232, 220, 220, 0.751);
+        text-align: center;
+        font-size: 1.4rem;
     }
-    .navbar-brand {
-        display:-moz-box;
-        padding: 0.5rem;
-        flex-flow: row;
-        
+    .navbar {
+        background-color: #352c2a;
+        max-height: 100%;
+    }
+    #sideNav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 11rem;
+        height: 100%;
+        place-content: center;
     }
     .img-fluid  {
-        max-width: 7rem;
-        max-height: 7rem;
-        border: 0.2rem solid #1873cde0;
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.3rem solid #1873cde0;
         border-radius: 100%;
-        position: relative;
-        margin-top: 170px;
-        margin-right: 690px;
-    }
-    .mobile-img{
-        max-width: 12rem;
-        max-height: 12rem;
-        border: 0.3rem solid #159be2e0;
-        border-radius: 100%;
-    }
-    #sideNav {
-        
-        width: 50rem;
-        height: 17.5vh;
-       
-    }
-    .resume-section {
-        padding-top: 3rem !important;    
-    }
-    h1,
-    .mobile-name {
-        font-family: "Just Another Hand", cursive;
-        font-size: 4.5rem;
-        letter-spacing: 0.1rem;
-    }
-    h2,
-    h4,
-    h6,
-    #sideNav {
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-    }
-    .tt-1,.tt-2{
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-    }
-    .content {
-        padding-top: 200px;
-        padding-left: 10px;
-        border: radius 5px;
-        width: 100%;
-    }
-    .contact-form {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .form-group {
         width: 50%;
@@ -167,39 +131,13 @@ a{
     .btn {
         font-weight: 700;
         letter-spacing: 0.1rem;
-        color: white;
-        width: 50%;
+        color: rgb(235, 227, 227);
+        width: 100%;
         border: none;
     }
-    .progress-bar,
-    .btn {
-    background-color: #1873cde0;
+    .content {
+        padding-left: 150px;
+        padding-right: 10px;
+        border: radius 0px;
     }
-    .card{
-        border: none;   
-    }
-    a{
-        color: #1873cde0;
-    }
-    .mobile-img{
-        height: 150px;
-        width: 150px;
-    }
-    .rr{ 
-        position:relative; left:130px; 
-        }
-    .text-center{
-        flex:1;
-        text-align: right;
-        display:-moz-box;
-        padding-top: 5px;
-        padding-bottom: 16%;
-    }
-    .text-center ul li{
-        list-style: none;
-        display: inline-block;
-        position: relative;
-        margin-right: 20px;
-    }
-    
- }
+}
